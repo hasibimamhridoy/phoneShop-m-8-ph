@@ -1,5 +1,24 @@
+import { useContext } from "react";
+import { GlobalContext } from "../../provider/GlobalStateProvider";
+import { useOutletContext } from "react-router-dom";
+import useGetAllPhones from "../../hooks/useGetAllPhones";
+
 
 const Login = () => {
+
+
+  const globalState = useContext(GlobalContext);
+  console.log(globalState);
+
+  // outletConext
+  const outletValue = useOutletContext()
+  console.log(outletValue);
+
+  //useCustomHook
+  const [phones,isLoading] = useGetAllPhones()
+  console.log(phones);
+
+
   return (
     <div className="flex justify-center items-center h-[95vh]">
       <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
