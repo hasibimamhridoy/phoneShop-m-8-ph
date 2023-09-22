@@ -53,6 +53,7 @@ const Favorites = () => {
               <p className="text-lg">Total Favorites Items Price :  <span className="text-xl font-bold">{totalPrice}</span></p>
             </div>
           )}
+          
           <div className="grid grid-cols-2 gap-5">
             {isShow
               ? favorites?.map((phone) => (

@@ -21,7 +21,7 @@
     "phone_name": "iPhone 12",
     "brand_name": "Apple",
     "price": 999.99,
-    "rating": 4.8
+    "rating": 3.5
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@
     "phone_name": "Samsung Galaxy S21",
     "brand_name": "Samsung",
     "price": 899.99,
-    "rating": 4.6
+    "rating": 2.9
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
     "phone_name": "Samsung Galaxy F23",
     "brand_name": "Samsung",
     "price": 1099.99,
-    "rating": 4.9
+    "rating": 5.0
   },
   {
     "id": "7",
@@ -79,7 +79,7 @@
     "phone_name": "Xiaomi Redmi Note",
     "brand_name": "Xiaomi",
     "price": 1299.99,
-    "rating": 4.9
+    "rating": 3.9
   },
   {
     "id": "11",

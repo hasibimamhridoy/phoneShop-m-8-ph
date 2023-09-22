@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import swal from "sweetalert";
+import { saveLocalStorage } from "../../utils/localStorage";
 
 const PhoneCard = ({ phone }) => {
   const { id, phone_name, image, rating, price, category, brand_name } =
@@ -28,6 +29,7 @@ const PhoneCard = ({ phone }) => {
     }
 
     console.log(addedFavoritesArray);
+
   };
 
   return (
